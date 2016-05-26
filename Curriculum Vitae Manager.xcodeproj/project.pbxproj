@@ -16,6 +16,12 @@
 		316C83D71CCD32B1009D5AAF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316C83D51CCD32B1009D5AAF /* MainMenu.xib */; };
 		316C83E21CCD32B1009D5AAF /* Curriculum_Vitae_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C83E11CCD32B1009D5AAF /* Curriculum_Vitae_ManagerTests.m */; };
 		316C83ED1CCD32B1009D5AAF /* Curriculum_Vitae_ManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C83EC1CCD32B1009D5AAF /* Curriculum_Vitae_ManagerUITests.m */; };
+		31E44CC21CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E44CB71CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.m */; };
+		31E44CC31CF627DD0029DDC0 /* CVMPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E44CB91CF627DD0029DDC0 /* CVMPicture.m */; };
+		31E44CC41CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E44CBB1CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.m */; };
+		31E44CC51CF627DD0029DDC0 /* CVMCurriculumVitae.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E44CBD1CF627DD0029DDC0 /* CVMCurriculumVitae.m */; };
+		31E44CC61CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E44CBF1CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.m */; };
+		31E44CC71CF627DD0029DDC0 /* CVMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E44CC11CF627DD0029DDC0 /* CVMAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		316C83E81CCD32B1009D5AAF /* Curriculum Vitae ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curriculum Vitae ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		316C83EC1CCD32B1009D5AAF /* Curriculum_Vitae_ManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Curriculum_Vitae_ManagerUITests.m; sourceTree = "<group>"; };
 		316C83EE1CCD32B1009D5AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E44CB61CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CVMPicture+CoreDataProperties.h"; sourceTree = "<group>"; };
+		31E44CB71CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CVMPicture+CoreDataProperties.m"; sourceTree = "<group>"; };
+		31E44CB81CF627DD0029DDC0 /* CVMPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMPicture.h; sourceTree = "<group>"; };
+		31E44CB91CF627DD0029DDC0 /* CVMPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMPicture.m; sourceTree = "<group>"; };
+		31E44CBA1CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CVMCurriculumVitae+CoreDataProperties.h"; sourceTree = "<group>"; };
+		31E44CBB1CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CVMCurriculumVitae+CoreDataProperties.m"; sourceTree = "<group>"; };
+		31E44CBC1CF627DD0029DDC0 /* CVMCurriculumVitae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMCurriculumVitae.h; sourceTree = "<group>"; };
+		31E44CBD1CF627DD0029DDC0 /* CVMCurriculumVitae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMCurriculumVitae.m; sourceTree = "<group>"; };
+		31E44CBE1CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CVMAddress+CoreDataProperties.h"; sourceTree = "<group>"; };
+		31E44CBF1CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CVMAddress+CoreDataProperties.m"; sourceTree = "<group>"; };
+		31E44CC01CF627DD0029DDC0 /* CVMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMAddress.h; sourceTree = "<group>"; };
+		31E44CC11CF627DD0029DDC0 /* CVMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMAddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,18 @@
 		316C83B81CCD32B0009D5AAF = {
 			isa = PBXGroup;
 			children = (
+				31E44CB61CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.h */,
+				31E44CB71CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.m */,
+				31E44CB81CF627DD0029DDC0 /* CVMPicture.h */,
+				31E44CB91CF627DD0029DDC0 /* CVMPicture.m */,
+				31E44CBA1CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.h */,
+				31E44CBB1CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.m */,
+				31E44CBC1CF627DD0029DDC0 /* CVMCurriculumVitae.h */,
+				31E44CBD1CF627DD0029DDC0 /* CVMCurriculumVitae.m */,
+				31E44CBE1CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.h */,
+				31E44CBF1CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.m */,
+				31E44CC01CF627DD0029DDC0 /* CVMAddress.h */,
+				31E44CC11CF627DD0029DDC0 /* CVMAddress.m */,
 				316C83C31CCD32B1009D5AAF /* Curriculum Vitae Manager */,
 				316C83E01CCD32B1009D5AAF /* Curriculum Vitae ManagerTests */,
 				316C83EB1CCD32B1009D5AAF /* Curriculum Vitae ManagerUITests */,
@@ -273,10 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E44CC61CF627DD0029DDC0 /* CVMAddress+CoreDataProperties.m in Sources */,
 				316C83D21CCD32B1009D5AAF /* Document.xcdatamodeld in Sources */,
+				31E44CC51CF627DD0029DDC0 /* CVMCurriculumVitae.m in Sources */,
 				316C83CC1CCD32B1009D5AAF /* Document.m in Sources */,
 				316C83C91CCD32B1009D5AAF /* main.m in Sources */,
+				31E44CC21CF627DD0029DDC0 /* CVMPicture+CoreDataProperties.m in Sources */,
 				316C83C61CCD32B1009D5AAF /* AppDelegate.m in Sources */,
+				31E44CC71CF627DD0029DDC0 /* CVMAddress.m in Sources */,
+				31E44CC41CF627DD0029DDC0 /* CVMCurriculumVitae+CoreDataProperties.m in Sources */,
+				31E44CC31CF627DD0029DDC0 /* CVMPicture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +541,7 @@
 				316C83F31CCD32B1009D5AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		316C83F41CCD32B1009D5AAF /* Build configuration list for PBXNativeTarget "Curriculum Vitae ManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				316C83F61CCD32B1009D5AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		316C83F71CCD32B1009D5AAF /* Build configuration list for PBXNativeTarget "Curriculum Vitae ManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				316C83F91CCD32B1009D5AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

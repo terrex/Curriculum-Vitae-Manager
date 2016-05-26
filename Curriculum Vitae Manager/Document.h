@@ -7,6 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CVMCurriculumVitae+CoreDataProperties.h"
 
 @interface Document : NSPersistentDocument
+
+@property (readonly, nonatomic) IBOutlet CVMCurriculumVitae * curriculumVitae;
+
 @end

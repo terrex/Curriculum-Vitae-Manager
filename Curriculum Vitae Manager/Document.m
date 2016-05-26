@@ -22,9 +22,25 @@
     return self;
 }
 
+- (instancetype)initWithType:(NSString *)typeName error:(NSError * _Nullable __autoreleasing *)outError {
+    self = [self init];
+    [NSEntityDescription insertNewObjectForEntityForName:@"CurriculumVitae" inManagedObjectContext:self.managedObjectContext];
+    return self;
+}
+
+- (CVMCurriculumVitae *) curriculumVitae {
+    NSArray *objects = [self.managedObjectContext executeFetchRequest:[NSFetchRequest fetchRequestWithEntityName:@"CurriculumVitae"] error:nil];
+    CVMCurriculumVitae *result = [objects firstObject];
+    if (result == nil) {
+        result = [NSEntityDescription insertNewObjectForEntityForName:@"CurriculumVitae" inManagedObjectContext:self.managedObjectContext];
+    }
+    return result;
+}
+
 + (BOOL)autosavesInPlace {
     return YES;
 }
+
 
 - (NSString *)windowNibName {
     // Override returning the nib file name of the document
